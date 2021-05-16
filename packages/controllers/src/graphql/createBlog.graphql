@@ -1,0 +1,6 @@
+mutation CreateBlog($title: String, $author: String) {
+  createBlog(title: $title, author: $author) {
+    title
+    author
+  }
+}

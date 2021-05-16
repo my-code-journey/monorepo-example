@@ -1,0 +1,6 @@
+query Blogs {
+  blogs {
+    title
+    author
+  }
+}
